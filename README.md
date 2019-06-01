@@ -18,3 +18,9 @@ In addition, we perform both uplink and downlink analysis and
 show  that  with  poorer  channel  tracking,  the  achievable  rates  in
 massive MIMO diminish unless more accurate channel estimates
 are  present.
+
+
+Commands to run:
+g++ uplink.cpp -litpp
+g++ -std=c++11 uplink.cpp -litpp iggdb
+gdb ./a.ou
